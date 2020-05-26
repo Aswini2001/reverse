@@ -6,8 +6,8 @@ main()
 	
 	int i,pos;
 	int ch;
-    fp = fopen("F:\mycap.txt","r");
-   	fp2 =fopen("F:\out.txt","w");
+    fp = fopen("mycap.txt","r");
+   	fp2 =fopen("out.txt","w");
 		
 	while((ch=fgetc (fp))!=EOF)
 {
